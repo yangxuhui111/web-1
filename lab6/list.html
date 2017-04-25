@@ -3,29 +3,36 @@
 <head>
 	<title>list</title>
 	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/list.css">
 </head>
 <body>
      <table width="100%">
      <!-- 页头部分 -->
      <tr>
-    <img src="bg.gif">
-    <div style="position: absolute;top: 8px;left: 260px;">
-    <img src="banner.jpg">
-    <div style="position: absolute;top: 30px;left: 50px">
-    <a href="content.html"><font color="white">首页</font></a>&nbsp;
-    <a href="content.html"><font color="white">学校概况</font></a>&nbsp;
-    <a href="content.html"><font color="white">规章制度</font></a>&nbsp;
-    <a href="content.html"><font color="white">德育网</font></a>&nbsp;
-    <a href="content.html"><font color="white">教研网</font></a>&nbsp;
-    <a href="content.html"><font color="white">名师风采</font></a>&nbsp;
-    <a href="content.html"><font color="white">高考专栏</font></a>&nbsp;
-    <a href="content.html"><font color="white">图书馆</font></a>&nbsp;
-    <a href="content.html"><font color="white">校友会</font></a>&nbsp;
-    <a href="content.html"><font color="white">河中论坛</font></a>&nbsp;
-    <a href="content.html"><font color="white">查询成绩</font></a>
-    </div>
-    </div>
+
+     <td background="bg.gif" align="center">
+                <table width="60%" background="banner.jpg">
+                    <tr class="menu">
+                        <td height="75px">首页</td>
+                        <td><a href="index.html" class="a">学校概况</a></td>
+                        <td><a href="index.html" class="a">规章制度</a></td>
+                        <td><a href="index.html" class="a">德育网</a></td>
+                        <td><a href="index.html" class="a">教研网</a></td>
+                        <td><a href="index.html" class="a">名师风采</a></td>
+                        <td><a href="index.html" class="a">高考专栏</a></td>
+                        <td><a href="index.html" class="a">图书馆</a></td>
+                        <td><a href="index.html" class="a">校友会</a></td>
+                        <td><a href="index.html" class="a">河中论坛</td>
+                        <td><a href="index.html"  id="special" class="a">查询系统</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="11" height="210px"></td>
+                    </tr>
+                </table>
+            </td>
     </tr>
+
      <!-- 页面主体部分 -->
      <table width="50%" align="center">
      	<tr>
@@ -35,11 +42,11 @@
      	<tr>
      		<td>
      			<ul>
-     				<li><font size="2"><a href="content.html">学校简介</a></font></li>
-     				<li><font size="2"><a href="content.html">现任领导</a></font></li>
-     				<li><font size="2"><a href="content.html">光荣历史</a></font></li>
-     				<li><font size="2"><a href="content.html">所获荣誉</a></font></li>
-     				<li><font size="2"><a href="content.html">图说河中</a></font></li>
+     				<li><font size="2"><a href="content.html" class="shezhi">学校简介</a></font></li>
+     				<li><font size="2"><a href="content.html" class="shezhi">现任领导</a></font></li>
+     				<li><font size="2"><a href="content.html" class="shezhi">光荣历史</a></font></li>
+     				<li><font size="2"><a href="content.html" class="shezhi">所获荣誉</a></font></li>
+     				<li><font size="2"><a href="content.html" class="shezhi">图说河中</a></font></li>
      			</ul>
      		</td>
      		<td rowspan="3">
@@ -86,7 +93,11 @@
      <!-- 页脚部分 -->
     <table bgcolor="grey" width="100%">
     <tr>
-    	<td align="center" rowspan="3"><br/><font size="2" color="white">Copynight@2008-206 http://www.***.com All Rights Reserved 网站备案：冀lcp备00000000号</font><br/>&nbsp;</td>
+            <td height="70px" align="center" background="foot_bg.gif">
+                <font color="white">Copyright © 2008－2016 http://www.***.com All Rights Reserved 网站备案：冀ICP备00000000号</font>
+            </td>
+
+        
     </tr>
     	
     </table>

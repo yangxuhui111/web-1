@@ -1,0 +1,30 @@
+body{font-size:12px;
+line-height:2em;
+font-family:'Arial';
+color:grey;
+
+}
+
+
+a{color:#727272; text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+.menu{
+	color: #b9f605;
+font-size: 14px;font-weight: 900;
+
+
+}
+.a:hover{text-decoration: none;color: #b9f605;}
+.a{
+	color: white;
+
+    }
+
+
+
+#special{
+	color: #fdb306
+	
+}
+#special:hover{text-decoration: none;color: #b9f605;}
