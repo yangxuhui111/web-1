@@ -1,2 +1,4 @@
 .shezhi{font-size: 14px;}
 .shezhi:hover{text-decoration: none;color: #b9f605;}
+.ul{list-style-type: disc;}
+.tupian{list-style-image: url(list.jpg);}
