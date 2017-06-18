@@ -1,0 +1,54 @@
+#six{
+	margin-left: 190px;
+	width: 75%;
+	height: 1050px;
+}
+#four{
+	width: 750px;
+	height: 1050px;
+	float: left;
+}
+
+.chao4{
+	color: black;
+}
+.chao4:hover{
+	color: #01a384;
+}
+#five{
+	width: 360px;
+	height: 1050px;
+	float: left;
+	margin-left: 20px;
+}
+#seven{
+	width: 384px;
+	height: 470px;
+	margin-top: 40px;
+}
+.ten{
+	color: black;
+	font-size: 20px;
+}
+.ten:hover{
+	color: #FFCC00;
+}
+#eight{
+	margin-top: 60px;
+	width: 384px;
+	height: 400px;
+}
+.wen{
+	font-size: 10px;
+	color: grey;
+	float: right;
+}
+.zi{
+	float: right;
+	color: black;
+	font-size: 20px;
+	margin-right: 20px;
+}
+.zi:hover{
+	color: #01a384;
+}

@@ -1,0 +1,36 @@
+#four{
+	margin-left: 190px;
+	width: 75%;
+	height: 900px;
+}
+.five{
+	width: 650px;
+	float: right;
+}
+#six{
+	width: 450px;
+	float: left;
+	background-color: #FDFFFF;
+}
+#seven{
+	width: 650px;
+	float: right;
+}
+.eight{
+	line-height: 40px;
+	color: black;
+}
+.nine{
+	color: black;
+}
+.nine:hover{
+	color:  #FFCC00;
+}
+.ten{
+	padding-top: 10px;
+	color: black;
+	font-size: 20px;
+}
+.ten:hover{
+	color:  #FFCC00;
+}

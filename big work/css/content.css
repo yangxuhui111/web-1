@@ -1,0 +1,60 @@
+#four{
+	width: 60%;
+	height: 1300px;
+	float: left;
+}
+.yanse{
+	color: grey;
+}
+.pang{
+	text-indent: 2em;
+	font-size: 15px;
+	font-family: '微软雅黑';
+}
+.chao{
+	color: #844004;
+}
+#five{
+	font-size: 14px;
+}
+#six{
+	margin-left: 190px;
+	width: 75%;
+	height: 1300px;
+}
+#seven{
+	float: right;
+	width: 39%;
+	height: 1300px;
+}
+.chao1{
+	color: black;
+	font-size: 14px;
+}
+.chao1:hover{
+	color: #FFCC00;
+}
+.eight{
+	width: 90px;
+	height: 105px;
+	float: left;
+}
+#nine{
+	width: 560px;
+	height: 105px;
+	float: left;
+	margin-left: 20px;
+}
+.chao2{
+	color:black;
+	float: right;
+}
+.chao2:hover{
+	color: #01a384;
+}
+#ten{
+	width: 680px;
+	height: 30px;
+	background-color: #01a384;
+	margin-top: 130px;
+}
